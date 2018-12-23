@@ -1,0 +1,160 @@
+<div>
+    <h1>About You</h1>
+
+    <form>
+        <div class="form-group">
+            <label for="surveyQuestions">Name (Required)</label>
+            <input type="name" class="form-control" id="nameInput" placeholder="type your name">
+        </div>
+        <div class="form-group">
+            <label for="surveyQuestions">Link to Photo Image(Required)</label>
+            <input type="link" class="form-control" id="linkInput" placeholder="paste link to your portfolio">
+        </div>
+        <div>Please score each question from 1 to 5</div>
+        <div class="form-group">
+            <h2>Question 1</h2>
+            <label for="surveyQuestions">How good are you in front-end?</label>
+            <select class="form-control" id="questions1">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h2>Question 2</h2>
+            <label for="surveyQuestions">How comfortable are you using bootstrap?</label>
+            <select class="form-control" id="questions2">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h2>Question 3</h2>
+            <label for="surveyQuestions">How do you like fitnes bootcamp?</label>
+            <select class="form-control" id="questions3">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h2>Question 4</h2>
+            <label for="surveyQuestions">What is your pain level?</label>
+            <select class="form-control" id="questions4">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h2>Question 5</h2>
+            <label for="surveyQuestions">How would you rate our store cleanliness?</label>
+            <select class="form-control" id="questions5">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h2>Question 6</h2>
+            <label for="surveyQuestions">How would you rate the android system?</label>
+            <select class="form-control" id="questions6">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h2>Question 7</h2>
+            <label for="surveyQuestions">How would you rate the macOS Mojave?</label>
+            <select class="form-control" id="questions7">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h2>Question 8</h2>
+            <label for="surveyQuestions">Please rate Walmart customer service</label>
+            <select class="form-control" id="questions8">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h2>Question 9</h2>
+            <label for="surveyQuestions">Please rate our chicken burrito</label>
+            <select class="form-control" id="questions9">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h2>Question 10</h2>
+            <label for="surveyQuestions"></label>
+            <select class="form-control" id="questions10">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div>
+            <a class="btn btn-primary btn-lg" id="submit-survey" data-toggle="modal" href="/survey" role="button">Submit
+                result</a>
+        </div>
+    </form>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/zhakina90/FriendFinder/issues"
   },
-  "homepage": "https://github.com/zhakina90/FriendFinder#readme"
+  "homepage": "https://github.com/zhakina90/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "path": "^0.12.7"
+  }
 }
