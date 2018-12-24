@@ -33,6 +33,7 @@ apirouter.post("/api/friends", function (req, res) {
         const difference = 0;
         for (var r = 0; r < newUserScores.lenght; r++) {
             difference += Math.abs(friends[i].scores[r] - newUserScores[r]);
+            console.log(newUserScores);
         }
         if (difference < totalDifference) {
             totalDifference = difference;
